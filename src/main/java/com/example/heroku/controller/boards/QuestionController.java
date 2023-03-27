@@ -13,7 +13,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("ztz/boards/question")
-@CrossOrigin(origins = "http://localhost:8080", allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:8080" , "https://tlst-ztz.web.app/"}, allowedHeaders = "*")
 public class QuestionController {
     @Autowired
     private QuestionService questionService;

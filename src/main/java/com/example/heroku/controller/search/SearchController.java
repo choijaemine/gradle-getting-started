@@ -13,7 +13,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("ztz/search")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:8080" , "https://tlst-ztz.web.app/"}, allowedHeaders = "*")
 public class SearchController {
 
     @Autowired

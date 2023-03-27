@@ -14,7 +14,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("ztz/products/favorite")
-@CrossOrigin(origins = "http://localhost:8080", allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:8080" , "https://tlst-ztz.web.app/"}, allowedHeaders = "*")
 public class FavoriteController {
 
     @Autowired

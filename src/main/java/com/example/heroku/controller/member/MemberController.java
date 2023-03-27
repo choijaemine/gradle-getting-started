@@ -21,7 +21,7 @@ import java.util.Optional;
 @Slf4j
 @RestController
 @RequestMapping("ztz/member")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:8080" , "https://tlst-ztz.web.app/"}, allowedHeaders = "*")
 public class MemberController {
 
     @Autowired

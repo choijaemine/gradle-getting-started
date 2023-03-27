@@ -15,7 +15,7 @@ import java.util.Map;
 @Slf4j
 @RestController
 @RequestMapping("ztz/products/review")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:8080" , "https://tlst-ztz.web.app/"}, allowedHeaders = "*")
 public class ReviewController {
 
     @Autowired
