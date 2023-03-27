@@ -4,9 +4,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/ztz_db?allowpublickeyretrieval=true&usessl=false&serverTimezone=UTC
-    username: eddi
-    password: eddi@123
+    url: jdbc:mysql://tj49ytey5jxq49bm:iaiifpdk80vgmeb0@w3epjhex7h2ccjxx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/b7iisbc95ealuveo?serverTimezone=UTC&useSSL=false
+    username: tj49ytey5jxq49bm
+    password: iaiifpdk80vgmeb0
     driver-class-name: com.mysql.cj.jdbc.Driver
     dialect: org.hibernate.dialect.MySQL8Dialect
 
